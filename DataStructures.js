@@ -78,7 +78,7 @@ console.log("myUnique Elements Set: ", myUniqueElemSet);
 //e_arr.sort(compareFunction);
 
 // Time Complexity
-1, n, nlogn, n*n, n*n*n
+// 1, n, nlogn, n*n, n*n*n
 
 //
 // created a new empty uniqueArray
