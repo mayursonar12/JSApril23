@@ -33,3 +33,18 @@ var i = outer();
 console.log(i);
 
 
+
+/// Statements
+
+// 1. Write a function which returns a function
+// 2. 
+
+
+function vehicle () {
+    function car() {
+
+    }
+    return car;
+}
+
+

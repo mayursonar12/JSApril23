@@ -10,3 +10,29 @@ Date : 22 April 2023
 
 
 
+
+// Everyday practice to get better at PROGRAMMING
+1. Understand the code flow. In what sequence the code will be executed.
+2. start from step 1 and predict/write down the output
+
+// Statements
+1. Write a function which returns another function
+2. Create a JS object which has variables and functions
+    a. There should be at least 1 arrow function and 1 normal function
+    b. (Intermediate) The normal function should contain at least 1 arrow function and 1 normal function inside it
+3. Write a function 'add' which takes 2 arguments and returns the sum of the 2 numbers.
+4. Write a function 'calculate' that takes an input a operation (+,-,*,/), which returns another function as per operation argument.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
