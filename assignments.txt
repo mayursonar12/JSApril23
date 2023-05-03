@@ -25,6 +25,12 @@ Date : 22 April 2023
 
 
 
+// Task queue and cloasures example
+
+// Understand Array destructuring in 1 level JSON and nested JSON objects
+// 
+
+
 
 
 
