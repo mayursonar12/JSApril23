@@ -45,13 +45,7 @@ const obj = {
     city3: "PHIL",
 }
 
-const obj1 = {
-    data: {
-        citiesInfo: {
-            : 
-        }
-    }
-}
+
 
 let denberg1 = obj.city1;
 
