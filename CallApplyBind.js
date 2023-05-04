@@ -76,3 +76,25 @@ let obj = {
 var multiply2 = multiply.bind(obj, 3);
 multiply2(3);
 multiply2(5);
+
+
+let add = function (x, y) {
+    console.log(x + y);
+}
+
+var add2 = multiply.bind(this, 3);
+add2(5);
+
+// Important to NOTE: 
+// first argument of bind will freeze your context (which object to refer to if your function has 'this' keyword)
+// Seconnd argument onwards, the bind will freeze your arguments of function
+// So in above case, multiply function is using only this.x and this.x, it is not using any passed arguments (x,y), 
+// So here the object that you pass to bind will freeze the this.x and this.y value. Any arguements passed will not be used
+//
+// however in add function, it is using only the arguments
+// so here we can freeze the arguments with bind. multiply.bind(this, 3);
+// It will freeze the context as 'window' and first arguments will be frozen as 3
+// So now it will accept only second argument add2(5); 
+
+
+
