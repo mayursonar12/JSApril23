@@ -97,4 +97,7 @@ add2(5);
 // So now it will accept only second argument add2(5); 
 
 
+var arr3 = [];
+
+arr3.mymap();
 
