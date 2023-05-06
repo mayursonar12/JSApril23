@@ -15,5 +15,7 @@ localStorage
 sessionStorage
 cookies
 
-
+//
+// ERRORS are the best TEACHERS....
+// 
 
