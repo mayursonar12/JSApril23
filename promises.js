@@ -27,25 +27,34 @@ function executor(resolve, reject) {
     // If my logial outcome is not good, then call rejet() and pass the error to it
     setTimeout(()=>{
         //reject(" The API failed to return video list...");
-        resolve();
+        resolve("data to pass to next stack .....");
     }, 3000);
 }
+
 
 let p1 = new Promise(executor);
 
 p1.then(function(youtubeAPIResponse) {
-    console.log("Then called.....");
+    console.log("First Then called.....");
 
     // Process the response
     // take the details for youtube API and display the video list
 
-    return new Promise(function(resolve, reject) {
-        //resolve();
-        reject();
+    return new Promise(function (resolve, reject) {
+        resolve("newResponse");
+        //reject();
     })
 
-}).then(function() {
+}).then(function(res) {
     console.log(" Second then called......")
+    //fetch1();
+}).then(function() {
+    console.log(" Third then called......");
+
+}).then(function() {
+    console.log(" Fourth then called......")
+}).then(function() {
+    console.log(" Fifth then called......")
 })
 
 p1.catch(function(errMsg){
@@ -72,5 +81,15 @@ p1.catch(function(errMsg){
 
 //==================
 
+function fetch1 () {
+    return new Promise(function (resolve, reject) {
+        //resolve();
+        // call some another webservice
+
+
+        // resolve ("Pass data of new webservice")
+        reject();
+    })
+}
 
 
