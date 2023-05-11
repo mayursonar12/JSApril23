@@ -61,6 +61,11 @@ but it should be present in your prototype chain)
 
 
 
+// 10 may
+Revise map, filter reduce
+Revise html css basics
+Understand Promises. Practice, practice, practice. And come up with doubts.
+
 
 
 
