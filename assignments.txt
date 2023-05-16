@@ -69,6 +69,31 @@ Understand Promises. Practice, practice, practice. And come up with doubts.
 
 
 
+16 may
+Create nested div like below, using plain JS
+div
+    <p>
+    <div>
+        <p>
+        <div>
+            <a>
+
+Revise event listenserns
+onCLick
+onChange
+focus
+onDblClick
+ondrag
+and few more if you like
+Create hyour react application
+npx create-react-app
+npm start
+Try playing around with Babel tool
+
+
+       
+
+
 
 
 
