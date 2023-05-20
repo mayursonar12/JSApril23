@@ -1,4 +1,4 @@
-
+import  serviceUser from "./services";
 //======================
 // Giorgi: 0   
 // Mariam: 0
@@ -176,10 +176,16 @@ car3.printCarDetails();
 car1.printAnimalDetails1();
 // But animalObjects cannot access carDetails function
 // So this will throw error
-animalObj1.printCarDetails();
+//animalObj1.printCarDetails();
 // WHY?
 
 
+// myFetchJsonService("https://nbg.gov.ge/gw/api/ct/monetarypolicy/currencies/ka/json/").then((json)=>{
+//     console.log("This output is from app1.js......");
+//     console.log(json);  
+// });
+
+console.log(serviceUser);
 
 
 

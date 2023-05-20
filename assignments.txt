@@ -94,6 +94,14 @@ Try playing around with Babel tool
        
 
 
+Prototypes
+call apply bind
+Promises
+Closures
+'this' keyword
+
+
+
 
 
 

@@ -1,7 +1,7 @@
 
 // Here in this file, we will maintain a list of all those functions which are commonly used by any application
 
-function myFetchJsonService(url) {
+export function myFetchJsonService(url) {
     return new Promise ( function(resolve, reject) {
         // Write my own logic here
 
@@ -16,6 +16,6 @@ function myFetchJsonService(url) {
     })
 }
 
-var serviceUser = "Tom";
+export default serviceUser = "Tom";
 
 
