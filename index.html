@@ -23,8 +23,17 @@
     <h3>INR Rate</h3>
     <p id="currRateEUR" class="inp">Unknown</p>
 
-    <input id="currValue" placeholder="Enter curr Value">
+    <form onsubmit="handleSubmit()">
 
+        <input id="currValue" placeholder="Enter curr Value">
+        <button>Click me.!</button>
+    </form>
+
+    <script>
+        function handleSubmit() {
+            alert("Submit clicked");
+        }
+    </script>
     <!-- <script src="app.js"></script> -->
     <!-- <script src="DataStructures.js"></script> -->
     <!-- <script src="thisKeyword.js"></script>s -->
@@ -38,9 +47,9 @@
     <!-- <script src="promises.js"></script> -->
     <!-- <script src="promisesRevision.js"></script> -->
     <!-- <script src="CreatingOwnFetch.js"></script> -->
-    <script type="module" src="Revision.js"></script>
+    <script src="Revision2.js"></script>
     <!-- <script type="module" src="services.js"></script> -->
-    <button>Click me.!</button>
+
 
  
     
